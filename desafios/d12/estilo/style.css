@@ -86,14 +86,14 @@ footer{
 }
 
 section#flor{
-    background-image: url(../d12/imagens/background001.jpg);
+    background-image: url(../imagens/background001.jpg);
     background-position: right center;
     background-attachment: fixed;
     background-size: cover;
 }
 
 section#livro{
-    background-image: url(../d12/imagens/background002.jpg);
+    background-image: url(../imagens/background002.jpg);
     background-position: right center;
     background-attachment: fixed;
     background-size: cover;
