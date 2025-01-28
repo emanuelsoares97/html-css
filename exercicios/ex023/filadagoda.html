@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    table{
+        width: 600px;
+        border-collapse: collapse;
+    }
+    th, td{
+        border: 1px solid black;
+        text-align: center;
+    }
+    th.bonito{
+        background-color: rgb(78, 76, 76);
+        color: white;
+
+    }
+    th.media{
+        background-color: rgb(78, 76, 76);
+        color: white;
+        text-align: left;
+
+    }
+    td.dadosmedia{
+        background-color: rgb(78, 76, 76);
+        color: white;
+
+
+    }
+</style>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2" class="bonito">Área</th>
+                <th rowspan="2" class="bonito">Disciplinas</th>
+                <th colspan="2" class="bonito">Notas</th>
+                <th rowspan="2" class="bonito">Média</th>
+            </tr>
+            <tr>
+                <th class="bonito">Nota 1</th>
+                <th class="bonito">Nota 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="4">Exatas</th>
+                <td>Matematica</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Fisica</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Quimica</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Biologia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <th colspan="4" class="media">Média de Exatas</th>
+                <td class="dadosmedia">0.0</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Humanas</th>
+                <td>Historia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Geografica</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <th colspan="4" class="media">Média de Humanas</th>
+                <td class="dadosmedia">0.0</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
