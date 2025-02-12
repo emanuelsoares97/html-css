@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Meu primeiro formulario</h1>
+    <form action="registo.php" method="post" autocomplete="on">
+        <p>
+            <label for="inome">Nome:</label> 
+            <input type="text" name="nome" id="inome" required minlength="3" placeholder="Preencher com o nome" size="25" autocomplete="username">
+        </p>
+        <p>
+            <label for="isobrenome">Sobrenome:</label> 
+            <input type="text" name="sobrenome" id="isobrenome" required maxlength="8" placeholder="Preencher com o sobrenome" size="25">
+        </p>
+        <p>
+            <label for="ipass">Password:</label> 
+            <input type="password" name="pass" id="ipass" required placeholder="Preencher com a password" size="25">
+        </p>
+        <p><input type="submit" value="Enviar"></p>
+        <p><input type="reset" value="Limpar"></p>
+    </form>
+
+    <form action="">
+
+        <fieldset>
+            <legend> Despoto Fav</legend>
+            <input type="checkbox">
+        </fieldset>
+
+
+    </form>
+</body>
+</html>
